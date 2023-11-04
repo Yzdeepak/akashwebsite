@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.navcontainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+}
+
+.navcontainer .navlogo {
+    margin-left: 180px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: large;
+
+}
+
+.navcontainer .navlist {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    /* margin-right: 50px; */
+    margin-left: 500px;
+}
+
+.navcontainer .navlist li {
+    margin: 20px;
+    margin-right: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: large;
+}
+
+@media only screen and (max-width:600px) {
+    .navcontainer {
+        width: 600px;
+        /* background-color: rebeccapurple; */
+        height: 50px;
+        border: 2px solid red;
+    }
+
+    .navcontainer .navlogo {
+        margin-left: 10px;
+    }
+
+    .navcontainer .navlist {
+        width: 100%;
+        /* margin-right: 500px; */
+    }
+
+    .navcontainer .navlist li {
+
+        margin-left: -60px;
+
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+
+}

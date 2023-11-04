@@ -1,0 +1,141 @@
+.homecontainer {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.homecontainer .homeimg {
+    width: 50vw;
+    height: 500px;
+}
+
+.homecontainer .homeimg img {
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 50px;
+    align-items: center;
+    border-radius: 200px;
+    border: 5px solid black;
+}
+
+
+.homecontainer .hometext {
+    width: 50vw;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 150px;
+
+}
+
+.homecontainer .hometext span {
+    color: red;
+}
+
+.homecontainer .hometext p {
+    width: 300px;
+    height: 150px;
+    margin-left: 250px;
+}
+
+.homecontainer .hometext .hometextinner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homecontainer .hometext .hometextinner .hometextinnerdiv {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    border-radius: 50px;
+
+
+}
+
+.homecontainer .hometext .hometextinner .hometextinnerdiv:hover {
+    background-color: rgb(84, 6, 6);
+    color: wheat;
+}
+
+
+.homecontainer .hometext .hometextinner .hometextinnerdiv h4 {
+    /* color: rgb(5, 5, 5); */
+    margin-top: 40px;
+}
+
+@media only screen and (max-width:600px) {
+    .homecontainer {
+        width: 600px;
+
+    }
+
+    .homecontainer .homeimg {
+        width: 20vw;
+        height: 200px;
+        margin-left: -150px;
+        margin-bottom: 300px;
+
+    }
+
+    .homecontainer .homeimg img {
+        width: 200px;
+        height: 200px;
+        align-items: center;
+        border-radius: 200px;
+    }
+
+    .homecontainer .hometext {
+        width: 40vw;
+        height: 300px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin-top: 150px;
+        margin-right: 50px;
+        margin-bottom: 200px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .homecontainer .hometext p {
+        width: 40vw;
+        height: 150px;
+        margin-right: 250px;
+
+    }
+
+    .hometextinner {
+        width: 100vw;
+        margin-right: 200px;
+    }
+
+    .homecontainer .hometext .hometextinner .hometextinnerdiv {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        text-align: center;
+        border-radius: 50px;
+        margin-top: 100px;
+        margin-right: 80px;
+
+
+    }
+
+    .homecontainer .hometext .hometextinner .hometextinnerdiv:hover {
+        background-color: rgb(84, 6, 6);
+        color: wheat;
+    }
+
+
+    .homecontainer .hometext .hometextinner .hometextinnerdiv h4 {
+        /* color: rgb(5, 5, 5); */
+        margin-top: 40px;
+    }
+}
